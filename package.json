@@ -1,0 +1,9 @@
+{
+  "name": "@snyk/b",
+  "version": "0.0.1",
+  "description": "b",
+  "author": "Snyk Ltd.",
+  "dependencies": {
+    "jscs": "2.11.0"
+  }
+}
