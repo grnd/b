@@ -4,6 +4,9 @@
   "description": "b",
   "author": "Snyk Ltd.",
   "dependencies": {
-    "jscs": "2.11.0"
+    "c": "https://github.com/grnd/c",
+    "gulp": "3.9.1",
+    "babel-cli": "6.10.1",
+    "del": "2.2.1"
   }
 }
