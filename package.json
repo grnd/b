@@ -7,6 +7,12 @@
     "c": "https://github.com/grnd/c",
     "gulp": "3.9.1",
     "babel-cli": "6.10.1",
-    "del": "2.2.1"
-  }
+    "del": "2.2.1",
+    "snyk": "^1.17.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
