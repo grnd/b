@@ -5,8 +5,14 @@
   "author": "Snyk Ltd.",
   "dependencies": {
     "c": "https://github.com/grnd/c",
-    "gulp": "3.9.1",
+    "gulp": "4.0.0",
     "babel-cli": "6.10.1",
-    "del": "2.2.1"
-  }
+    "del": "2.2.1",
+    "snyk": "^1.105.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
