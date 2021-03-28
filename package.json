@@ -6,7 +6,7 @@
   "dependencies": {
     "c": "https://github.com/grnd/c",
     "gulp": "3.9.1",
-    "babel-cli": "6.10.1",
+    "babel-cli": "6.18.0",
     "del": "2.2.1"
   }
 }
